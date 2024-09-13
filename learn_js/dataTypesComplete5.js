@@ -20,22 +20,28 @@ Primitive: --> 7 Types
 */
 
 //examples
-// const score = 100;
-// const scoreValue = 100.3        //nothing like decimal or float: all symbolise as NUMBER
+const score = 100;
+const scoreValue = 100.3        //nothing like decimal or float: all symbolise as NUMBER
 
-// const isLoggedIn = false
-// const outsideTemp = null
-// let userEmail;      // undefined
+const isLoggedIn = false
+const outsideTemp = null
+let userEmail;      // undefined
 
-// const id = Symbol('123')
+const id = Symbol('123')
 // const anotherId = Symbol('123')
 // console.log(id === anotherId);  //return false, because it have different number
 
-// const bigNum = 345672432545364547767n;
+const bigNum = 345672432545364547767n;
 
 // Let's check the return types of the primitive dataTypes
-// console.log(typeof score)
-// console.log(typeof scoreValue)
+// console.log(typeof score)           //number
+// console.log(typeof scoreValue)      //number
+// console.log(typeof isLoggedIn)      //boolean 
+// console.log(typeof outsideTemp)     //object
+// console.log(typeof userEmail)       //undefined
+// console.log(typeof id)              //symbol
+// console.log(typeof bigNum)          //biginit
+
 
 
 
@@ -47,16 +53,20 @@ NonPrimitive --> 3 Types
 */
 
 //examples
-// let arr = ["riya", "javier", "sohan", "radha"];
+let arr = ["riya", "javier", "sohan", "radha"];
 
-// let obj = {
-//     name: "Riya",
-//     age: 21
-// }
+let obj = {
+    name: "Riya",
+    age: 21
+}
 
-// const myFun = function(){
-//     console.log("Hello World");
-// }
+const myFun = function(){
+    console.log("Hello World");
+}
+
+console.log(typeof arr);        //obj
+console.log(typeof obj);        //obj
+console.log(typeof myFun);      //function obj
 
 
 
