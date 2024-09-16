@@ -27,3 +27,5 @@ console.log(checkDate.toLocaleString());
 
 //Time Stamp
 
+let myTimeStamp = Date.now()
+console.log(myTimeStamp);
