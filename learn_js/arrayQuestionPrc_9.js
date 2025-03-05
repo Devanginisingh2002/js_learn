@@ -90,8 +90,8 @@ named 'favoriteCity' */
      /* Q9. You have an array named 'teaMenu' containing "masala chai", "oolong tea", "green tea", and "earl grey"
      Find the length of the array and store it in a variable named 'menuLength'. */
 
-     let teaMenu = ["masala chai", "oolang tea", "green tea", "earl grey"];
-     let menuLength = teaMenu.length;
+    //  let teaMenu = ["masala chai", "oolang tea", "green tea", "earl grey"];
+    //  let menuLength = teaMenu.length;
     //  console.log(menuLength);
 
 
@@ -99,6 +99,6 @@ named 'favoriteCity' */
     "Kyoto","London", "Cape Town", and "Vancouver",
     Check if "London" is in the array and store the result in a variable named 'isLondonInList
     */
-    let cityBucketList = ["kyoto", "London", "Cape Town", "Vancouver"];
-    let isLondonInList = cityBucketList.includes("London");
-    console.log(isLondonInList);
+    // let cityBucketList = ["kyoto", "London", "Cape Town", "Vancouver"];
+    // let isLondonInList = cityBucketList.includes("London");
+    // console.log(isLondonInList);
